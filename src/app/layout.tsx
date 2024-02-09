@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { dark } from "@clerk/themes";
 import { ClerkProvider } from "@clerk/nextjs";
+
 import { ThemeProvider } from "@/providers/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
